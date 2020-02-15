@@ -17,14 +17,14 @@ class Author
     Post.all.select {|post| post.author == self}
   end
   
-   def add_song_by_name(name)
-    song = Song.new(name)
-    add_song(song)
-    @@song_count +=1
+   def add_post_by_name(name)
+    post = Post.new(name)
+    add_post(post)
+    @@post_count +=1
   end
   
-  def self.song_count
-    @@song_count
+  def self.post_count
+    @@post_count
   end
   
   
