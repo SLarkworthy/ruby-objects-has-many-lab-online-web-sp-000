@@ -10,7 +10,9 @@ class Author
   
   def add_post(post)
     post.author = self
-    @@song_count +=1
+    @@post_count +=1
   end
+  
+  
   
 end
