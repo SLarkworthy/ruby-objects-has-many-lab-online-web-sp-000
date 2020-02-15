@@ -22,7 +22,7 @@ class Artist
   end
   
   self.song_count
-    @songs.length
+    
   end
   
 end
